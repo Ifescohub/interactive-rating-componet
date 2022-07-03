@@ -25,8 +25,7 @@ body{
     line-height: 1.5;
 }
 
-h1{
-    font-size: 20px;
+h2{
     font-weight: 700;
     color: var(--White);
     padding-bottom: 0.5rem;
@@ -145,6 +144,7 @@ button:hover{
     color: var(--Medium-Grey);
     position: absolute;
     bottom: 5px;
+    margin: auto;
 }
 
 .attribution a { 
@@ -166,7 +166,7 @@ button:hover{
     /* Containers formating */
     [class*="container-"]{
         width: 20rem;
-        max-width: 85%;
+        max-width: 95%;
         padding: 2rem 1rem;
     }
     
