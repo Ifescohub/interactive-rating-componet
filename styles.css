@@ -41,6 +41,7 @@ main, aside{
     height: 100vh;
     display: grid;
     place-items: center;
+    margin: auto;
 }
 
 aside{
@@ -59,9 +60,10 @@ aside.active{
 [class*="container-"]{
     background-color: hsl(215, 18%, 13%);
     width: 24rem;
-    max-width: 80%;
+    max-width: 70%;
     padding: 2rem 1.5rem;
     border-radius: 20px;
+    margin: auto;
 }
 
 .star{
@@ -152,4 +154,32 @@ button:hover{
 
 .attribution a:hover{
     text-decoration: overline;
+}
+
+
+@media (max-width: 650px) {
+    body{
+        font-size: 14px;
+    }
+    
+    
+    /* Containers formating */
+    [class*="container-"]{
+        width: 20rem;
+        max-width: 85%;
+        padding: 2rem 1rem;
+    }
+    
+    .rate{
+        width: 15%;
+    }
+    
+    /* SECOND CONTAINER ----- */
+    .container-2{
+        text-align: center;
+    }
+    
+    .ratings{
+        width: 95%;
+    }
 }
