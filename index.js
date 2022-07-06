@@ -10,7 +10,7 @@ $(".rate").click(function(){
 
 // Formating button click to flip pages 
 $("button").click(function(){
-   let x === $(".rating");
+   let x = $(".rating").html();
     if(x = ""){
       return ;
     }else{
