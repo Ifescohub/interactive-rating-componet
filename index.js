@@ -10,6 +10,11 @@ $(".rate").click(function(){
 
 // Formating button click to flip pages 
 $("button").click(function(){
-    $("main").addClass("active");
-    $("aside").addClass("active");
+   let x === $(".rating");
+    if(x = ""){
+      return ;
+    }else{
+      $("main").addClass("active");
+      $("aside").addClass("active");
+  }
 });
