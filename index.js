@@ -11,7 +11,7 @@ $(".rate").click(function(){
 // Formating button click to flip pages 
 $("button").click(function(){
    let x = $(".rating").html();
-    if(x = ""){
+    if(x === ""){
       return ;
     }else{
       $("main").addClass("active");
